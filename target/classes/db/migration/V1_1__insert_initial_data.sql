@@ -1,0 +1,1 @@
+INSERT INTO Player (id, first_name, last_name) values (1, 'Scott', 'Quinn');

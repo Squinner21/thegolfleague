@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html ng-app="golfleague">
+	<head>
+	<title>Golf League</title>
+	<meta charset="UTF-8">
+	<link href="app/core/assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="app/core/assets/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="app/core/assets/css/app.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="app/core/assets/js/bootstrap.min.js"></script>
+	
+	<script src="../bower_components/angular/angular.js"></script>
+	<script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	
+	<script src="app/app.js"></script>
+	<script src="app/core/core.module.js"></script>
+	<script src="app/players/players.module.js"></script>
+	
+	<script src="app/core/core.routes.js"></script>
+	<script src="app/core/routerHelperProvider.js"></script>
+	
+	
+	<script src="app/players/players.controller.js"></script>
+	<script src="app/players/players.service.js"></script>
+	<script src="app/players/players.routes.js"></script>
+	<script src="app/core/topNav/topNav.directive.js"></script>
+	
+	</head>
+	<body>
+		<top-nav class="topNav-directive"></top-nav>
+	
+		<div id="app-container" ui-view></div>
+	
+	</body>
+</html>

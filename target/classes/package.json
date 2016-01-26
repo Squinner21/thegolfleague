@@ -1,0 +1,19 @@
+{
+  "name": "golfleague",
+  "version": "0.0.0",
+  "description": "Golf League Application",
+  "author": "",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "del": "^1.1.1",
+    "jasmine-core": "^2.3.4",
+    "jshint-stylish": "^2.0.1",
+    "karma": "^0.12.37",
+    "karma-jasmine": "^0.3.5",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17",
+    "wiredep": "^3.0.0-beta",
+    "yargs": "^3.15.0"
+  }
+}
